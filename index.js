@@ -61,7 +61,12 @@ for(let i=0;i< user.length;i++)
 
 let userr=[10,20,30,40];
 
-for(let i=0;i<userr.length();i++)
-{
-    console.log(typeof user[i]);
-}
+//userr.push("hi");  adds in last
+//userr.pop();       removes last element
+//userr.shift();     removes first element
+//userr.unshift("suvi");  adds in first index
+
+
+
+
+console.log(userr);
