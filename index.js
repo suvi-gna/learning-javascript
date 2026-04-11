@@ -56,3 +56,12 @@ for(let i=0;i< user.length;i++)
 {
     console.log(typeof user[i]);
 }
+
+//Array2
+
+let userr=[10,20,30,40];
+
+for(let i=0;i<userr.length();i++)
+{
+    console.log(typeof user[i]);
+}
