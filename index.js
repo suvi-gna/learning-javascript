@@ -95,7 +95,7 @@ const user1=
 {
     id:2,
     name:"B",
-    loc:"vij",
+    loc:"vij"
 },
 ]
 
@@ -114,3 +114,69 @@ for (const key in user1) {
     console.log(element);
     
 }
+
+
+function myFun()
+{
+    console.log(-1);
+}
+myFun();
+
+function myRef()
+{
+    const s=10;
+    return s;
+}
+
+console.log(myRef());
+console.log(myRef);
+
+function addTwo(a,b)
+{
+    // let a=10;
+    // let b=50;
+    return a+b;
+}
+console.log(addTwo(10,5));
+
+
+//anonymous function
+const obj1=function(a,b)
+{
+    return a+b;
+}
+console.log(obj1(34,4));
+const obj2=function(a,b)
+{
+    return a-b;
+}
+
+
+
+function doMath(num1,num2,operation)
+{
+    switch(operation)
+    {
+        case '+':
+            console.log(`The addition of ${num1} and ${num2} is ${num1 + num2} `);
+            break;
+        case '-':
+            console.log(`The substraction of ${num1} and ${num2} is ${num1-num2}`);
+            break;
+        case '*':
+            console.log(num1*num2);
+            break;
+        case '/':
+            console.log(num1/num2);
+            break;
+        case '%':
+            console.log(num1%num2);
+            break;
+    }
+}
+
+
+doMath(20,30,'+');
+doMath(20,30,'-');
+doMath(20,30,'*');
+doMath(20,30,'/');
