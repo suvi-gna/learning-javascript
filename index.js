@@ -1,16 +1,16 @@
-//var a=10;
-//var a=29;
-//console.log(a);
+var a=10;
+var a=29;
+console.log(a);
 
 
 
-//let c=32;
-//c=64;
-//console.log(c);
+let c=32;
+c=64;
+console.log(c);
 
 
-//const b=44;
-//console.log(b);
+const b=44;
+console.log(b);
 
 
 //pattern
@@ -29,9 +29,9 @@ for(let i=0;i<5;i++)
 // * * * *
 // * * * * *
 
-let a=10;
-let b="10";
-if(a===b)
+let k=10;
+let l="10";
+if(k===l)
 {
     console.log(-1);
 }
@@ -70,3 +70,47 @@ let userr=[10,20,30,40];
 
 
 console.log(userr);
+
+
+
+const obj=
+{
+    id:1,
+    name:"guest",
+    myData:[10,"hi","bye tata"]
+}
+console.log(obj);
+
+
+obj.loc="hyd"
+
+console.log(obj.loc);
+console.log(obj.myData);
+const user1=
+[{
+    id:1,
+    name:"A",
+    loc:"hyd"
+},
+{
+    id:2,
+    name:"B",
+    loc:"vij",
+},
+]
+
+
+
+console.log(user1[0]);
+console.log(user1[1].name);
+
+
+// for of --arrays
+// for in --objects
+for (const key in user1) {
+    if (!Object.hasOwn(user1, key)) continue;
+    
+    const element = user1[key];
+    console.log(element);
+    
+}
