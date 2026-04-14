@@ -180,3 +180,11 @@ doMath(20,30,'+');
 doMath(20,30,'-');
 doMath(20,30,'*');
 doMath(20,30,'/');
+
+
+
+let name="riya";
+let age=22;
+console.log("my name is "+name+".she is "+age);
+console.log(`my name is ${name}.she is ${age}`);
+
